@@ -3,7 +3,7 @@ private class DragDropFileUploadController_Test {
 
     static testMethod void unitTest() {
     	Account acc = new Account();
-    	acc.Name = 'Testing by Bala';
+    	acc.Name = 'Testing by Bala123';
     	insert acc;
     	
         DragDropFileUploadController c = new DragDropFileUploadController(new ApexPages.StandardController(acc));
