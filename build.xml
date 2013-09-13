@@ -3,11 +3,11 @@
     <property file="build.properties"/>
     <property environment="env"/>
 
-    <target name="deployRunAllTests">
+    <target name="deployCode">
       <sf:deploy username="${sf.username}" 
         password="${sf.password}" 
         serverurl="${sf.serverurl}" 
-        runAllTests="true"
+        runAllTests="false"
         logType="Detail"
         deployRoot="src"/>
     </target>
