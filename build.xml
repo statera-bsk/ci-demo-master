@@ -10,7 +10,7 @@
         runAllTests="true"
         logType="Detail"
         deployRoot="src"/>
-    </target>
+    </target>false
 
     <target name="undeployCode">
       <sf:deploy username="${sf.username}" 
