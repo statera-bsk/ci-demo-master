@@ -16,6 +16,7 @@
       <sf:deploy username="${sf.username}" 
         password="${sf.password}" 
         serverurl="${sf.serverurl}" 
+        maxPoll="${sf.maxPoll}"
         deployRoot="undeploy"/>
     </target>    
 
